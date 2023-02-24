@@ -10,8 +10,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let questions = [
-    {
+let questions = [{
         question: 'Inside which HTML element do we put the JavaScript??',
         choice1: '<script>',
         choice2: '<javascript>',
@@ -20,8 +19,7 @@ let questions = [
         answer: 1,
     },
     {
-        question:
-            "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
         choice1: "<script href='xxx.js'>",
         choice2: "<script name='xxx.js'>",
         choice3: "<script src='xxx.js'>",
@@ -51,16 +49,22 @@ startGame = () => {
     getNewQuestion()
 }
 
+// Updates question counter, randomly generates a question and it's choices"
+
 getNewQuestion = () => {
     questionCounter++
-    const questionIndex = Math.floor(Math.random() *  availableQuestions.length)
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question
-    
+
     choices.forEach(choice => {
         const number = choice.dataset['number']
         choice.innerText = currentQuestion['choice' + number]
     })
+
+    availableQuestions.splice(questionIndex, 1)
+    
+    acceptingAnswers = true
 }
 
 startGame()
