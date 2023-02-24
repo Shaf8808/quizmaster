@@ -37,3 +37,22 @@ let questions = [
         answer: 4,
     },
 ];
+
+// Number of points added each time the user is correct and number of questions for question counter
+
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 3;
+
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    availableQuestions = [...questions]
+    console.log(availableQuestions)
+    getNewQuestion()
+}
+
+getNewQuestion = () => {
+    
+}
+
+startGame()
