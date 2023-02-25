@@ -49,8 +49,10 @@ startGame = () => {
     getNewQuestion()
 }
 
-// Updates question counter, randomly generates a question and it's choices"
 
+/**
+ * Updates question counter, randomly generates a question and it's choices
+ */
 getNewQuestion = () => {
 
     // Once the user finishes the quiz, they are navigated to the "end" page
@@ -86,13 +88,16 @@ choices.forEach(choice => {
         // Adds incorrect and correct colour to specific option chosen by the user
 
         const classToApply =
-        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"
+            selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"
 
         selectedChoice.parentElement.classList.add(classToApply)
 
-        // Navigates the user to the next question after a 3 second delay and removes the class of correct and incorrect
-        
-        setTimeout( () => {
+
+        /**
+         * Navigates the user to the next question after a 
+         * 3 second delay and removes the class of correct and incorrect
+          */ 
+        setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
         }, 3000)
@@ -100,3 +105,4 @@ choices.forEach(choice => {
 })
 
 startGame()
+
