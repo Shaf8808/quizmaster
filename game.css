@@ -43,5 +43,15 @@
   #hud {
     display: flex;
     justify-content: space-between;
+    padding-top: 25rem
+  }
+
+  .hud-title {
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .hud-info {
+    text-align: center;
   }
 

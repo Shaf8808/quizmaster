@@ -1,6 +1,9 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 
+// Question counter and score variables
+const questionCounterText = document.getElementById('questionCounter')
+const scoreText = document.getElementById('score')
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -38,8 +41,8 @@ let questions = [{
 
 // Number of points added each time the user is correct and number of questions for question counter
 
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const correctScore = 10;
+const maxQuestions = 3;
 
 startGame = () => {
     questionCounter = 0
@@ -57,12 +60,13 @@ getNewQuestion = () => {
 
     // Once the user finishes the quiz, they are navigated to the "end" page
 
-    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
+    if (availableQuestions.length === 0 || questionCounter >= maxQuestions) {
         return window.location.assign("/end.html")
     }
 
-
     questionCounter++
+    questionCounterText.innerText = `${questionCounter}/${maxQuestions}`
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question
@@ -73,7 +77,7 @@ getNewQuestion = () => {
     })
 
     availableQuestions.splice(questionIndex, 1)
-    
+
     acceptingAnswers = true
 }
 
@@ -96,7 +100,7 @@ choices.forEach(choice => {
         /**
          * Navigates the user to the next question after a 
          * 3 second delay and removes the class of correct and incorrect
-          */ 
+         */
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
@@ -105,4 +109,3 @@ choices.forEach(choice => {
 })
 
 startGame()
-
