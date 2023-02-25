@@ -51,6 +51,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     max-width: 70rem;
     margin: 0 auto;
     padding: 3rem;
@@ -108,5 +109,13 @@ h3 {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
+  }
+
+  /* Styling for final message upon quiz completion */
+
+  #end-message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   
