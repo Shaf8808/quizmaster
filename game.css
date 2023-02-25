@@ -38,3 +38,10 @@
     background-color: #e00d0d;
   }
 
+  /* HUD */
+
+  #hud {
+    display: flex;
+    justify-content: space-between;
+  }
+
