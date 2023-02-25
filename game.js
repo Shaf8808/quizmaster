@@ -52,6 +52,14 @@ startGame = () => {
 // Updates question counter, randomly generates a question and it's choices"
 
 getNewQuestion = () => {
+
+    // Once the user finishes the quiz, they are navigated to the "end" page
+
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
+        return window.location.assign("/end.html")
+    }
+
+
     questionCounter++
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionIndex]
@@ -69,7 +77,14 @@ getNewQuestion = () => {
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        
+        if (!acceptingAnswers) return
+
+        acceptingAnswers = false
+        const selectedChoice = e.target
+        const selectedAnswer = selectedChoice.dataset['number']
+
+        getNewQuestion()
+
     })
 })
 
