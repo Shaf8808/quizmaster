@@ -27,3 +27,14 @@
     padding: 1.5rem;
     width: 100%;
   }
+
+  /* Colour for correct and incorrect options */
+
+  .correct {
+    background-color: #218521;
+  }
+
+  .incorrect {
+    background-color: #e00d0d;
+  }
+

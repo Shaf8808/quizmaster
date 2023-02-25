@@ -5,7 +5,7 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 let currentQuestion = {};
 let acceptingAnswers = false;
 
-// Default score and querstion counter
+// Default score and question counter
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -82,6 +82,9 @@ choices.forEach(choice => {
         acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
+
+        const classToApply =
+        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"
 
         getNewQuestion()
 
