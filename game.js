@@ -61,6 +61,8 @@ getNewQuestion = () => {
     // Once the user finishes the quiz, they are navigated to the "end" page
 
     if (availableQuestions.length === 0 || questionCounter >= maxQuestions) {
+        // Stores final score of user for it to be accessed on end screen
+        localStorage.setItem('mostRecentScore', score)
         return window.location.assign("/end.html")
     }
 
