@@ -64,6 +64,7 @@ getNewQuestion = () => {
         return window.location.assign("/end.html")
     }
 
+    // Dynamically updates question counter depending on question user is currently on
     questionCounter++
     questionCounterText.innerText = `${questionCounter}/${maxQuestions}`
 
@@ -94,6 +95,10 @@ choices.forEach(choice => {
         const classToApply =
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"
 
+            // Dynamically adds the correctScore value by calling incrementScore function
+            if(classToApply === 'correct') {
+                incrementScore(correctScore)
+            }
         selectedChoice.parentElement.classList.add(classToApply)
 
 
@@ -107,5 +112,14 @@ choices.forEach(choice => {
         }, 2000)
     })
 })
+
+/**
+ * Updates score number depending on the user's choice
+ * once it is called
+ */
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
 
 startGame()
