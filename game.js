@@ -83,11 +83,19 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
+        // Adds incorrect and correct colour to specific option chosen by the user
+
         const classToApply =
         selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"
 
-        getNewQuestion()
+        selectedChoice.parentElement.classList.add(classToApply)
 
+        // Navigates the user to the next question after a 3 second delay and removes the class of correct and incorrect
+        
+        setTimeout( () => {
+            selectedChoice.parentElement.classList.remove(classToApply)
+            getNewQuestion()
+        }, 3000)
     })
 })
 
