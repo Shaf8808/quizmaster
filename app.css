@@ -96,6 +96,7 @@ h3 {
     text-decoration: none;
     color: #56a5eb;
     background-color: white;
+    border-radius: 25px;
   }
   
   .btn:hover {
@@ -109,6 +110,12 @@ h3 {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
+  }
+
+  /* Home button */
+
+  #home-btn {
+    margin-top: 2rem;
   }
 
   /* Styling for final message upon quiz completion */
