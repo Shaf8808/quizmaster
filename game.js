@@ -13,9 +13,20 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// Questions variable which obtains questions from a json file using fetch
 let questions = [];
 
-fetch("questions.json")
+fetch("questions.json").then(res => {
+return res.json()
+})
+.then(loadedQuestions => {
+    questions = loadedQuestions
+    startGame()
+})
+// Logs any error that may occur while playing or loading up the quiz
+.catch(err => {
+    console.log(err)
+})
 
 // Number of points added each time the user is correct and number of questions for question counter
 
@@ -102,4 +113,3 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
-startGame()
