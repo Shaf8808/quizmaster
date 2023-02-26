@@ -31,7 +31,7 @@ return res.json()
 // Number of points added each time the user is correct and number of questions for question counter
 
 const correctScore = 10;
-const maxQuestions = 3;
+const maxQuestions = 10;
 
 startGame = () => {
     questionCounter = 0
