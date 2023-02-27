@@ -53,7 +53,7 @@ getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= maxQuestions) {
         // Stores final score of user for it to be accessed on end screen
         localStorage.setItem('mostRecentScore', score)
-        return window.location.assign("/end.html")
+        return window.location.assign("end.html")
     }
 
     // Dynamically updates question counter depending on question user is currently on
