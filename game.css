@@ -45,7 +45,6 @@
   #hud {
     display: flex;
     justify-content: space-between;
-    padding-top: 25rem
   }
 
   .hud-title {
