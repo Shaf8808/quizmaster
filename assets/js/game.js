@@ -96,7 +96,7 @@ choices.forEach(choice => {
 
         /**
          * Navigates the user to the next question after a 
-         * 3 second delay and removes the class of correct and incorrect
+         * 2 second delay and removes the class of correct and incorrect
          */
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
