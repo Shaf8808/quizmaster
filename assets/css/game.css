@@ -13,8 +13,8 @@
   
   .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-    transform: translateY(-0.1rem);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(220, 96, 19, 0.997);
+    transform: translateY(-0.3rem);
     transition: transform 150ms;
   }
   
@@ -28,16 +28,17 @@
   .choice-text {
     padding: 1.5rem;
     width: 100%;
+    color: #0a0a0a;
   }
 
   /* Colour for correct and incorrect options */
 
   .correct {
-    background-color: #218521;
+    background-color: #184718;
   }
 
   .incorrect {
-    background-color: #e00d0d;
+    background-color: #c20e0e;
   }
 
   /* HUD */
