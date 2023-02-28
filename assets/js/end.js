@@ -1,5 +1,7 @@
 
-// Final score variables and access local storage to display score on end screen
+
+/* Variables for final score and username accessed through local storage 
+for it to be displayed on end screen upon quiz completion */
 
 const mostRecentScore = localStorage.getItem('mostRecentScore')
 const finalScore = document.getElementById('finalScore')
