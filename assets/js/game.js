@@ -1,31 +1,7 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const homeButton = document.getElementById('home-btn')
-
-// Welcome section
-
-const welcomeMessageRef = document.getElementById('welcome-message')
-const welcomeSection = document.getElementById('welcome')
-
-// User form section
-
-const userSectionRef = document.getElementById('user');
-const userFormRef = document.getElementById('user-form');
-const userNameRef = document.getElementById('user-name');
-
-const userFormOpen = () => {
-    welcomeMessageRef.innerHTML = '';
-    userNameRef.value = '';
-    userNameRef.focus();
-}
-
-const handleUserFormSubmit = event => {
-    event.preventDefault();
-    welcomeMessageRef.innerHTML = `Are you ready ${userNameRef.value}?`;
-}
-
-// // User form submit
-// userFormRef.addEventListener('submit', handleUserFormSubmit);
+const startButton = document.getElementById('start-btn')
 
 
 // Question counter and score variables
@@ -39,6 +15,8 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+
+
 
 // Questions variable which obtains questions from a json file using the fetch method
 let questions = [];
