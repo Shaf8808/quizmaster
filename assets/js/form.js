@@ -25,6 +25,7 @@ const handleUserFormSubmit = event => {
     userSectionRef.classList.add('hidden')
     welcomeSection.classList.remove('hidden')
     welcomeMessageRef.innerHTML = `Are you ready ${userNameRef.value}?`;
+    localStorage.setItem('userName', userNameRef.value)
     startButton.classList.remove('hidden')
 }
 
