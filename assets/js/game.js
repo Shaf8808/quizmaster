@@ -2,6 +2,32 @@ const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const homeButton = document.getElementById('home-btn')
 
+// Welcome section
+
+const welcomeMessageRef = document.getElementById('welcome-message')
+const welcomeSection = document.getElementById('welcome')
+
+// User form section
+
+const userSectionRef = document.getElementById('user');
+const userFormRef = document.getElementById('user-form');
+const userNameRef = document.getElementById('user-name');
+
+const userFormOpen = () => {
+    welcomeMessageRef.innerHTML = '';
+    userNameRef.value = '';
+    userNameRef.focus();
+}
+
+const handleUserFormSubmit = event => {
+    event.preventDefault();
+    welcomeMessageRef.innerHTML = `Are you ready ${userNameRef.value}?`;
+}
+
+// // User form submit
+// userFormRef.addEventListener('submit', handleUserFormSubmit);
+
+
 // Question counter and score variables
 const questionCounterText = document.getElementById('questionCounter')
 const scoreText = document.getElementById('score')
