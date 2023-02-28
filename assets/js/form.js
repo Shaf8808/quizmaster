@@ -1,11 +1,9 @@
 const startButton = document.getElementById('start-btn')
 
-
 // Welcome section
 
 const welcomeMessageRef = document.getElementById('welcome-message')
 const welcomeSection = document.getElementById('welcome')
-
 
 
 // User form section
@@ -28,8 +26,6 @@ const handleUserFormSubmit = event => {
     localStorage.setItem('userName', userNameRef.value)
     startButton.classList.remove('hidden')
 }
-
-
 
 // User form submit
 userFormRef.addEventListener('submit', handleUserFormSubmit);
