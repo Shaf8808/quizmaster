@@ -24,6 +24,11 @@
     color: white;
     border-radius: 25px;
   }
+
+  .choice-prefix:hover {
+    background-color: #0a0a0a;
+    transition: 150ms;
+  }
   
   .choice-text {
     padding: 1.5rem;
