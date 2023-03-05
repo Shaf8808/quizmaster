@@ -80,7 +80,7 @@ Welcome to Quizmaster, an online quiz that allows the user to select from severa
 
 ### Fonts
 
-I have decided to go with Google Fonts to help me choose a suitable font style for my project, as it contains a wide variety of different fonts to choose from. As opposed to my first project, I have decided to go with one particular font, as it contains less textual content and does not require two different font styles.
+The font style that I have decided to go with is Arial, Helvetica, sans-serif as it is a professional lookinf font ans is both appropriate for my project and clear to read. As opposed to my first project, I have decided to go with one particular font, as it contains less textual content and does not require two different font styles.
 
 
 ### Colours
@@ -90,7 +90,7 @@ The colour scheme that I have decided to go with for my second javascript projec
 
 ### Structure
 
-The structure of my quiz site will be very simple and straightforward. There will be a landing page which 
+The structure of my quiz site will be very simple and straightforward. There will be a landing page which will provide the user with the option to enter their name and click "submit" before being directed to the initialisation page. This page will contain a personalised message which asks them if they are ready to start the quiz, with a button at the bottom that starts the game once clicked by the user.
 
 
 
