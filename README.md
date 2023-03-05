@@ -23,9 +23,8 @@ Welcome to Quizmaster, an online quiz that allows the user to select from severa
     + [Structure](#structure)
 * [**Features**](#features)
     + [Existing Features](#existing-features)
-      - [Header and logo](#header-and-logo)
+      - [Headers and logo](#headers-and-logo)
       - [Section Headers](#section-headers)
-      - [Navigation Bar](#navigation-bar)
       - [Desktop](#desktop)
       - [Small screens](#small-screens)
 * [**Sections**](#sections)
@@ -91,6 +90,24 @@ The colour scheme that I have decided to go with for my second javascript projec
 ### Structure
 
 The structure of my quiz site will be very simple and straightforward. There will be a landing page which will provide the user with the option to enter their name and click "submit" before being directed to the initialisation page. This page will contain a personalised message which asks them if they are ready to start the quiz, with a button at the bottom that starts the game once clicked by the user.
+
+The reason why I have decided to go with this structure is because it is both simple and effective in achieving it's intended result. It allows the user to enter their personal details, which is stored in local storage using javascript in order for that name to be accessed on the final end screen for it to be displayed along with their final score.
+
+## Features
+
+## Existing Features
+
+### Headers and logo
+
+I have ensured that the different headers used throughout my app have a level of consistency in aspects such as font-size, weight and colour. The main title of my app, for example, is the largest font as its a h1 header. Furthermore, all of the colours I have used for each of my different headers had to be selected carefully so that they are easy and clear to read by the user. This means that the colours selected had to contrast with the chosen colour of my background. 
+
+
+
+## Sections
+
+### Home section
+
+<img src="./doc-images/quizmaster-home.jpg">
 
 
 
