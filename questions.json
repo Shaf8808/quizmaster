@@ -1,83 +1,83 @@
 [
     {
-      "question": "Inside which HTML element do we put the JavaScript?",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
-      "answer": 1
-    },
-    {
-      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
-      "answer": 3
-    },
-    {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
+      "question": "How many league titles have Manchester United won?",
+      "choice1": "21",
+      "choice2": "9",
+      "choice3": "11",
+      "choice4": "13",
       "answer": 4
     },
     {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
+      "question": "What is the name of Gigi Hadid's famous big sister?",
+      "choice1": "Angela",
+      "choice2": "Bella",
+      "choice3": "Adriana",
+      "choice4": "Rose",
+      "answer": 2
+    },
+    {
+      "question": "How tall is Blackpool Tower?",
+      "choice1": "200m",
+      "choice2": "305m",
+      "choice3": "158m",
+      "choice4": "400m",
+      "answer": 3
+    },
+    {
+        "question": "How many eyes does a spider have?",
+        "choice1": "7",
+        "choice2": "8",
+        "choice3": "10",
+        "choice4": "6",
+        "answer": 1
+      },
+    {
+        "question": "What was the first Marvel movie ever made?",
+        "choice1": "Black Panther",
+        "choice2": "Iron Man",
+        "choice3": "Captain America",
+        "choice4": "Thor",
+        "answer": 2
+      },
+    {
+        "question": "Which famous actor plays The Godfather a.k.a Vito Corleone?",
+        "choice1": "Tom Cruise",
+        "choice2": "Christian Bale",
+        "choice3": "Marlon Brando",
+        "choice4": "Leonardo Di Caprio",
         "answer": 3
       },
     {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
-        "answer": 3
+        "question": "When was the Queen's official birthday?",
+        "choice1": "June 11",
+        "choice2": "September 14",
+        "choice3": "August 12",
+        "choice4": "February 21",
+        "answer": 1
       },
     {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
-        "answer": 3
+        "question": "What designer famously makes red soled shoes?",
+        "choice1": "Calvin Klein",
+        "choice2": "Coco Chanel",
+        "choice3": "Vivienne Westwood",
+        "choice4": "Christian Louboutin",
+        "answer": 4
       },
     {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
-        "answer": 3
+        "question": "What was the name of the UK's first ever newspaper?",
+        "choice1": "The Daily Courant",
+        "choice2": "The Daily Mail",
+        "choice3": "The Daily Bugle",
+        "choice4": "The Sun",
+        "answer": 1
       },
     {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
-        "answer": 3
-      },
-    {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
-        "answer": 3
-      },
-    {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
-        "answer": 3
+        "question": "Which Star Wars character is best known for the line 'I am your father'?",
+        "choice1": "Darth Maul",
+        "choice2": "Darth Sidious",
+        "choice3": "Darth Tyranus",
+        "choice4": "Darth Vader",
+        "answer": 4
       }
       
   ]
