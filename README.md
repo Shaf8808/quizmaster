@@ -109,6 +109,17 @@ I have ensured that the different headers used throughout my app have a level of
 
 <img src="./doc-images/quizmaster-home.jpg">
 
+### Welcome section
+
+<img src="./doc-images/quizmaster-welcome.jpg">
+
+### Quiz section
+
+<img src="./doc-images/quizmaster-quiz.jpg">
+
+### End section
+
+<img src="./doc-images/quizmaster-end.jpg">
 
 
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
