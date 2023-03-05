@@ -68,7 +68,7 @@
     "choice2": "Joe Biden",
     "choice3": "Dick Cheney",
     "choice4": "Al Gore",
-    "answer": 1
+    "answer": 3
   },
   {
     "question": "Which Star Wars character is best known for the line 'I am your father'?",
@@ -84,7 +84,7 @@
     "choice2": "Rome",
     "choice3": "Naples",
     "choice4": "Milan",
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "In the TV show New Girl, which actress plays Jessica Day?",
@@ -100,7 +100,7 @@
     "choice2": "Kings Canyon, Australia",
     "choice3": "Grand Canyon, USA",
     "choice4": "Fjaðrárgljúfur Canyon, Iceland",
-    "answer": 1
+    "answer": 3
   },
   {
     "question": "How long is the border between the United States and Canada?",
@@ -108,7 +108,7 @@
     "choice2": "4,525 miles",
     "choice3": "5,525 miles",
     "choice4": "6,525 miles",
-    "answer": 1
+    "answer": 3
   },
   {
     "question": "What is the largest active volcano in the world?",
@@ -116,15 +116,15 @@
     "choice2": "Mount Vesuvius",
     "choice3": "Mouna Loa",
     "choice4": "Mount Batur",
-    "answer": 1
+    "answer": 3
   },
   {
-    "question": "When was the book “To Kill a Mockingbird” by Harper Lee published?",
+    "question": "When was the book To Kill a Mockingbird by Harper Lee published?",
     "choice1": "1950",
     "choice2": "1960",
     "choice3": "1970",
     "choice4": "1980",
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "In which museum can you find Leonardo Da Vincis Mona Lisa?",
@@ -135,7 +135,7 @@
     "answer": 1
   },
   {
-    "question": "In the Big Bang Theory, what is the name of Sheldon and Leonard’s neighbour?",
+    "question": "In the Big Bang Theory, what is the name of Sheldon and Leonards neighbour?",
     "choice1": "Penny",
     "choice2": "Patty",
     "choice3": "Lily",
@@ -144,18 +144,18 @@
   },
   {
     "question": "When did Hitler invade Poland?",
-    "choice1": "1st September 1939",
+    "choice1": "8th May 1940",
     "choice2": "11th November 1939",
-    "choice3": "8th May 1940",
+    "choice3": "1st September 1939",
     "choice4": "1st December 1940",
-    "answer": 1
+    "answer": 3
   },
   {
     "question": "What is the largest continent in size?",
-    "choice1": "Asia",
-    "choice2": "Africa",
+    "choice1": "Africa",
+    "choice2": "Asia",
     "choice3": "Europe",
     "choice4": "North America",
-    "answer": 1
+    "answer": 2
   }
 ]
