@@ -121,6 +121,16 @@ I have ensured that the different headers used throughout my app have a level of
 
 <img src="./doc-images/quizmaster-end.jpg">
 
+## Technologies Used
+
+### Languages
+
+* Html
+* Css
+* Javascript
+
+
+
 
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
 https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003 10 question examples
