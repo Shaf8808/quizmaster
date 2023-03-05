@@ -1,83 +1,161 @@
-[
-    {
-      "question": "How many league titles have Manchester United won?",
-      "choice1": "21",
-      "choice2": "9",
-      "choice3": "11",
-      "choice4": "13",
-      "answer": 4
-    },
-    {
-      "question": "What is the name of Gigi Hadid's famous big sister?",
-      "choice1": "Angela",
-      "choice2": "Bella",
-      "choice3": "Adriana",
-      "choice4": "Rose",
-      "answer": 2
-    },
-    {
-      "question": "How tall is Blackpool Tower?",
-      "choice1": "200m",
-      "choice2": "305m",
-      "choice3": "158m",
-      "choice4": "400m",
-      "answer": 3
-    },
-    {
-        "question": "How many eyes does a spider have?",
-        "choice1": "7",
-        "choice2": "8",
-        "choice3": "10",
-        "choice4": "6",
-        "answer": 1
-      },
-    {
-        "question": "What was the first Marvel movie ever made?",
-        "choice1": "Black Panther",
-        "choice2": "Iron Man",
-        "choice3": "Captain America",
-        "choice4": "Thor",
-        "answer": 2
-      },
-    {
-        "question": "Which famous actor plays The Godfather a.k.a Vito Corleone?",
-        "choice1": "Tom Cruise",
-        "choice2": "Christian Bale",
-        "choice3": "Marlon Brando",
-        "choice4": "Leonardo Di Caprio",
-        "answer": 3
-      },
-    {
-        "question": "When was the Queen's official birthday?",
-        "choice1": "June 11",
-        "choice2": "September 14",
-        "choice3": "August 12",
-        "choice4": "February 21",
-        "answer": 1
-      },
-    {
-        "question": "What designer famously makes red soled shoes?",
-        "choice1": "Calvin Klein",
-        "choice2": "Coco Chanel",
-        "choice3": "Vivienne Westwood",
-        "choice4": "Christian Louboutin",
-        "answer": 4
-      },
-    {
-        "question": "What was the name of the UK's first ever newspaper?",
-        "choice1": "The Daily Courant",
-        "choice2": "The Daily Mail",
-        "choice3": "The Daily Bugle",
-        "choice4": "The Sun",
-        "answer": 1
-      },
-    {
-        "question": "Which Star Wars character is best known for the line 'I am your father'?",
-        "choice1": "Darth Maul",
-        "choice2": "Darth Sidious",
-        "choice3": "Darth Tyranus",
-        "choice4": "Darth Vader",
-        "answer": 4
-      }
-      
-  ]
+[{
+    "question": "How many league titles have Manchester United won?",
+    "choice1": "21",
+    "choice2": "9",
+    "choice3": "11",
+    "choice4": "13",
+    "answer": 4
+  },
+  {
+    "question": "What is the name of Gigi Hadid's famous big sister?",
+    "choice1": "Angela",
+    "choice2": "Bella",
+    "choice3": "Adriana",
+    "choice4": "Rose",
+    "answer": 2
+  },
+  {
+    "question": "How tall is Blackpool Tower?",
+    "choice1": "200m",
+    "choice2": "305m",
+    "choice3": "158m",
+    "choice4": "400m",
+    "answer": 3
+  },
+  {
+    "question": "How many eyes does a spider have?",
+    "choice1": "7",
+    "choice2": "8",
+    "choice3": "10",
+    "choice4": "6",
+    "answer": 1
+  },
+  {
+    "question": "What was the first Marvel movie ever made?",
+    "choice1": "Black Panther",
+    "choice2": "Iron Man",
+    "choice3": "Captain America",
+    "choice4": "Thor",
+    "answer": 2
+  },
+  {
+    "question": "Which famous actor plays The Godfather a.k.a Vito Corleone?",
+    "choice1": "Tom Cruise",
+    "choice2": "Christian Bale",
+    "choice3": "Marlon Brando",
+    "choice4": "Leonardo Di Caprio",
+    "answer": 3
+  },
+  {
+    "question": "When was the Queen's official birthday?",
+    "choice1": "June 11",
+    "choice2": "September 14",
+    "choice3": "August 12",
+    "choice4": "February 21",
+    "answer": 1
+  },
+  {
+    "question": "What designer famously makes red soled shoes?",
+    "choice1": "Calvin Klein",
+    "choice2": "Coco Chanel",
+    "choice3": "Vivienne Westwood",
+    "choice4": "Christian Louboutin",
+    "answer": 4
+  },
+  {
+    "question": "Who was vice president for George W. Bush?",
+    "choice1": "Kamala Harris",
+    "choice2": "Joe Biden",
+    "choice3": "Dick Cheney",
+    "choice4": "Al Gore",
+    "answer": 1
+  },
+  {
+    "question": "Which Star Wars character is best known for the line 'I am your father'?",
+    "choice1": "Darth Maul",
+    "choice2": "Darth Sidious",
+    "choice3": "Darth Tyranus",
+    "choice4": "Darth Vader",
+    "answer": 4
+  },
+  {
+    "question": "In which Italian city can you find the Colosseum?",
+    "choice1": "Venice",
+    "choice2": "Rome",
+    "choice3": "Naples",
+    "choice4": "Milan",
+    "answer": 1
+  },
+  {
+    "question": "In the TV show New Girl, which actress plays Jessica Day?",
+    "choice1": "Zooey Deschanel",
+    "choice2": "Kaley Cuoco",
+    "choice3": "Jennifer Aniston",
+    "choice4": "Alyson Hannigan",
+    "answer": 1
+  },
+  {
+    "question": "What is the largest canyon in the world?",
+    "choice1": "Verdon Gorge, France",
+    "choice2": "Kings Canyon, Australia",
+    "choice3": "Grand Canyon, USA",
+    "choice4": "Fjaðrárgljúfur Canyon, Iceland",
+    "answer": 1
+  },
+  {
+    "question": "How long is the border between the United States and Canada?",
+    "choice1": "3,525 miles",
+    "choice2": "4,525 miles",
+    "choice3": "5,525 miles",
+    "choice4": "6,525 miles",
+    "answer": 1
+  },
+  {
+    "question": "What is the largest active volcano in the world?",
+    "choice1": "Mount Etna",
+    "choice2": "Mount Vesuvius",
+    "choice3": "Mouna Loa",
+    "choice4": "Mount Batur",
+    "answer": 1
+  },
+  {
+    "question": "When was the book “To Kill a Mockingbird” by Harper Lee published?",
+    "choice1": "1950",
+    "choice2": "1960",
+    "choice3": "1970",
+    "choice4": "1980",
+    "answer": 1
+  },
+  {
+    "question": "In which museum can you find Leonardo Da Vincis Mona Lisa?",
+    "choice1": "Le Louvre",
+    "choice2": "Uffizi Museum",
+    "choice3": "British Museum",
+    "choice4": "Metropolitan Museum of Art",
+    "answer": 1
+  },
+  {
+    "question": "In the Big Bang Theory, what is the name of Sheldon and Leonard’s neighbour?",
+    "choice1": "Penny",
+    "choice2": "Patty",
+    "choice3": "Lily",
+    "choice4": "Jessie",
+    "answer": 1
+  },
+  {
+    "question": "When did Hitler invade Poland?",
+    "choice1": "1st September 1939",
+    "choice2": "11th November 1939",
+    "choice3": "8th May 1940",
+    "choice4": "1st December 1940",
+    "answer": 1
+  },
+  {
+    "question": "What is the largest continent in size?",
+    "choice1": "Asia",
+    "choice2": "Africa",
+    "choice3": "Europe",
+    "choice4": "North America",
+    "answer": 1
+  }
+]
