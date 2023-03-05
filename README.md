@@ -1,1 +1,2 @@
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
+https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003 10 question examples
