@@ -131,8 +131,9 @@ I have also decided to include a home button at the bottom of the choice contain
 
 <img src="./doc-images/quizmaster-end.jpg">
 
-This is the end screen for my game. THis is displayed automatically once the user completes the last question of my game. As the image above shows, it displays the name of the user that they entered on the homepage, as well as their final score in a clear, well illustrated way. The structure of this page is both clear and aesthetically plewasing to the eye formatted in a column 
+This is the end screen for my game. THis is displayed automatically once the user completes the last question of my game. As the image above shows, it displays the name of the user that they entered on the homepage, as well as their final score in a clear, well illustrated way. The structure of this page is both clear and aesthetically plewasing to the eye formatted in a column-like way. 
 
+After their final score is displayed on screen, it provides the user with the option to either restart the game with their name still stored within local storage, or to navigate back to the landing page where they must either re-enter their details again or enter a different name if someone else wants to play the game.
 ## Technologies Used
 
 ### Languages
