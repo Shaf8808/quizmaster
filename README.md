@@ -115,15 +115,23 @@ The image above shows the landing page of my site that will be presented to user
 
 This page is the welcome section of my quiz app. It contains a personalised message invidual to every user based on the name which they have previously entered. This name is stored using local storage for it to be accessed on the end screen after they complete the quiz, and is also displayed using template literals on this particular page.
 
-It prepares the user for the quiz they are about to begin by asking if they are ready, along with a button at the bottom of the message that starts the game. The reason why I have decided to include this page is to both store their name for it to be shown along with their final score, as well as give my app a more personal touch to the user.
+It prepares the user for the quiz they are about to begin by asking if they are ready, along with a button at the bottom of the message that starts the game. The reason why I have decided to include this page is to both store their name for it to be shown along with their final score on the end screen, as well as give my app a more personal touch to the user.
 
 ### Quiz section
 
 <img src="./doc-images/quizmaster-quiz.jpg">
 
+This is the quiz section of my site. Once the user clicks on the button on the welcome page to start the game they are shown this page. The overall structure of my quiz page remains consistent throughout regardless of which question the user is currently on. This was very important as my site needed to have that level of consistency as there are two counters displayed at the top of each page, as can be seen in the image above. As the user moves through the different questions, the question counter dynamically updates to show and inform the user which question they are currently on out of a total number of questions they need to answer before they complete the game. This gives a clear picture of the players' progress and how long they have left before they finish the game.
+
+My quiz page also includes a score counter which also dynamically increases with each correct answer the user selects by 10 points each. Both the question and the score counter are styled in a way that is both clear and bold, as they are important features needed for my app's interactivity. The score counter was included in order to give my app an element of competitiveness so as to make the user want to take the quiz multiple times in order to try and get a better score from their last attempt.
+
+I have also decided to include a home button at the bottom of the choice containers which takes the player back to the homepage, so that if the user decides to quit the game, they have that option available to them rather than having to finish the entire quiz first.
+
 ### End section
 
 <img src="./doc-images/quizmaster-end.jpg">
+
+This is the end screen for my game. THis is displayed automatically once the user completes the last question of my game. As the image above shows, it displays the name of the user that they entered on the homepage, as well as their final score in a clear, well illustrated way. The structure of this page is both clear and aesthetically plewasing to the eye formatted in a column 
 
 ## Technologies Used
 
