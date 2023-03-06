@@ -146,7 +146,7 @@ After their final score is displayed on screen, it provides the user with the op
 
 * Construction and deployment- Gitpod
 * HTML validation- W3C HTML Validation Service
-* CSS validation W3C CSS- Validation Service
+* CSS validation- W3C CSS Validation Service
 * JS syntax validator- Esprima
 * Spell check- Grammarly
 
@@ -155,7 +155,9 @@ After their final score is displayed on screen, it provides the user with the op
 
 <img src="./doc-images/quizmaster-lighthouse.jpg">
 
-It was important right from the get go that my site was kept simple and clear for the user when it comes to the styling and structure of my app. 
+It was important right from the get go that my site was kept simple and clear for the user when it comes to the styling and structure of my app. As it is essentially a game that they are playing, my app needed to be accessible to the largest target audience as possible and formatted in a way that makes it easy for anyone to jump right in and start taking the quiz without any confusion. I believe that the overall layout of my site manages to accomplish this, something which is reinforced by the lighthouse results my site achieved shown in the image above. 
+
+There were, however, certain issues that I ran into throughout the course of development that needed to be overcome. The first question that I had to ask myself was the file structure of my project, and whether or not I was going to create more than one file for the html, css and javascript elements of my site. I decided to use more than one, as I believe it organised all of the different code used throughout my project in a way that is both clear to read as well as easy to make changes to. 
 
 
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
