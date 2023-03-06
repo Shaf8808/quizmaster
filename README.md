@@ -163,7 +163,13 @@ As this was the first time I have ever used javascript, it was a big learning ex
 
 The score counter was a big problem that I encountered while making this site. ALthough incrementing the score and having it dynamically add a specific amount was not too much of an issue, getting it to ignore further clicks from the user was something that I had to figure out.
 
-Updating the question counter was also a bit of an issue as I needed to show both the question that the user was on as well as the maximum number of questions that the quiz contained.
+Updating the question counter was also a bit of an issue as I needed to show both the question that the user was on as well as the maximum number of questions that the quiz contained. I did this by using template literals, and incrementing the counter each time the user answered a question and having a set number of maximum questions. The code I used can be seen below:
+
+const maxQuestions = 10;
+
+questionCounter++
+
+questionCounterText.innerText = `${questionCounter}/${maxQuestions}`
 
 
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
