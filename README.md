@@ -159,6 +159,12 @@ It was important right from the get go that my site was kept simple and clear fo
 
 There were, however, certain issues that I ran into throughout the course of development that needed to be overcome. The first question that I had to ask myself was the file structure of my project, and whether or not I was going to create more than one file for the html, css and javascript elements of my site. I decided to use more than one, as I believe it organised all of the different code used throughout my project in a way that is both clear to read as well as easy to make changes to. 
 
+As this was the first time I have ever used javascript, it was a big learning experience for me where I had to utilise both the resources offered by Code Institute, as well as other external resources from different websites and video tutorials. The biggest issue that I encountered using javascript is the score counter. WHen I first started on my quiz app, it did not have a timeout function my final version does now. Instead, I had a button which once clicked upon would direct the user to the next question after they select their answer. The reason why I decided to use a timeout method instead is because I believe it makes it more convenient for the user to automatically be redirected to the next question without any input.
+
+The score counter was a big problem that I encountered while making this site. ALthough incrementing the score and having it dynamically add a specific amount was not too much of an issue, getting it to ignore further clicks from the user was something that I had to figure out.
+
+Updating the question counter was also a bit of an issue as I needed to show both the question that the user was on as well as the maximum number of questions that the quiz contained.
+
 
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
 https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003 10 question examples
