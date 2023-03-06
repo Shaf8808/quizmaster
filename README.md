@@ -151,6 +151,11 @@ After their final score is displayed on screen, it provides the user with the op
 * Spell check- Grammarly
 
 
+## Testing
+
+<img src="./doc-images/quizmaster-lighthouse.jpg">
+
+It was important right from the get go that my site was kept simple and clear for the user when it comes to the styling and structure of my app. 
 
 
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
