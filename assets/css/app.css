@@ -120,12 +120,6 @@ p {
   color: #0b0b0b;
 }
 
-.btn[disabled]:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
-}
-
 /* User form section */
 
 #user-name {
