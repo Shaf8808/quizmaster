@@ -1,3 +1,6 @@
+/* The code in this file was written with the help of
+James Q Quick's video tutorial of making a quiz app */
+
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const homeButton = document.getElementById('home-btn')
