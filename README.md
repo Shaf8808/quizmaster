@@ -31,7 +31,6 @@ Welcome to Quizmaster, an online quiz that allows the user to select from severa
     + [Home section](#home-section)
 * [**Technologies Used**](#technologies-used)
     + [Languages](#languages)
-    + [Libraries & Framework](#libraries-and-framework)
     + [Tools](#tools)
 * [**Testing**](#testing)
 * [**Deployment**](#deployment)
@@ -109,9 +108,14 @@ I have ensured that the different headers used throughout my app have a level of
 
 <img src="./doc-images/quizmaster-home.jpg">
 
+The image above shows the landing page of my site that will be presented to users once they enter it's url. The structure of the page is both clear and simple, as all it requires from them is to enter their name within the text input field and click the submit button. The main title or the name of my quiz needs to be front and center on this page as well as be suitably styled to catch the users' attention. I believe that my main heading does exactly that.
 ### Welcome section
 
 <img src="./doc-images/quizmaster-welcome.jpg">
+
+This page is the welcome section of my quiz app. It contains a personalised message invidual to every user based on the name which they have previously entered. This name is stored using local storage for it to be accessed on the end screen after they complete the quiz, and is also displayed using template literals on this particular page.
+
+It prepares the user for the quiz they are about to begin by asking if they are ready, along with a button at the bottom of the message that starts the game. The reason why I have decided to include this page is to both store their name for it to be shown along with their final score, as well as give my app a more personal touch to the user.
 
 ### Quiz section
 
@@ -129,8 +133,18 @@ I have ensured that the different headers used throughout my app have a level of
 * Css
 * Javascript
 
+### Tools
+
+* Construction and deployment- Gitpod
+* HTML validation- W3C HTML Validation Service
+* CSS validation W3C CSS- Validation Service
+* JS syntax validator- Esprima
+* Spell check- Grammarly
+
 
 
 
 Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
 https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003 10 question examples
+James Q Quick
+Stack Overflow
