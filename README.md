@@ -176,3 +176,4 @@ Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Mult
 https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003 10 question examples
 James Q Quick
 Stack Overflow
+Sam Timmins

@@ -1,3 +1,6 @@
+/* The code in this file was written with some help from Sam 
+Timmins' quiz app */
+
 const startButton = document.getElementById('start-btn')
 
 // Welcome section
