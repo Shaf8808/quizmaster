@@ -186,12 +186,16 @@ label {
     display: flex;
     justify-content: center;
   }
-
   h2 {
     font-size: 3.2rem;
   }
-
   h1 {
     margin-bottom: 2rem;
+  } 
+  #user-name {
+    margin-top: 1rem;
+  }
+  #user-submit {
+    margin-top: 1rem;
   }
 }

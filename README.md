@@ -172,7 +172,22 @@ questionCounter++
 questionCounterText.innerText = `${questionCounter}/${maxQuestions}`
 
 
-Credits = https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
+
+## Deployment
+
+Once the code was written, committed and pushed to GitHub, this project was deployed using GitHub following these steps:
+
+* Navigate to the repository on GitHub and click 'Settings'.
+* Select the 'Pages' option on the sidebar.
+* Select the 'None' dropdown, and then click 'master'.
+* Click on the 'Save' button.
+* The website is now live https://shaf8808.github.io/quizmaster/
+* If any changes are required, they can be made, committed and pushed to GitHub and the changes will be made automatically.
+
+
+## Credits 
+
+https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
 https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003 10 question examples
 James Q Quick
 Stack Overflow
