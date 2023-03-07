@@ -182,13 +182,16 @@ Once the code was written, committed and pushed to GitHub, this project was depl
 * Select the 'None' dropdown, and then click 'master'.
 * Click on the 'Save' button.
 * The website is now live https://shaf8808.github.io/quizmaster/
-* If any changes are required, they can be made, committed and pushed to GitHub and the changes will be made automatically.
+* If any changes are required, they can be made, committed and pushed to GitHub and the changes will be updated automatically.
 
 
 ## Credits 
+For question examples:
+* https://www.quiztriviagames.com/multiple-choice-trivia-questions/
+* https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003
 
-https://www.quiztriviagames.com/multiple-choice-trivia-questions/ Multiple choice questions
-https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003 10 question examples
-James Q Quick
-Stack Overflow
-Sam Timmins
+For coding help:
+* Simen Daehlin
+* James Q Quick
+* Stack Overflow
+* Sam Timmins
