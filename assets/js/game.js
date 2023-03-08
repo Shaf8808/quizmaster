@@ -67,6 +67,9 @@ getNewQuestion = () => {
     questionCounter++
     questionCounterText.innerText = `${questionCounter}/${maxQuestions}`
 
+    /* This takes a random number from my questions array and 
+    displays it as the current question that the user is on. */
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question

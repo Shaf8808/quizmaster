@@ -1,12 +1,9 @@
 # Quizmaster
 
-<img>
-
 ## Goals and objectives
 
 Welcome to Quizmaster, an online quiz that allows the user to select from several categories and test their general knowledge on their chosen subject. With each correct answer selected, the user gains additional points in a score system included in my quiz so that they can clearly see how knowledgeable they are and compare previous results so that they can improve and gain further insight into their specific category. 
 
-<img>
 
 ## Table of Contents
 
@@ -137,6 +134,8 @@ I have also decided to include a home button at the bottom of the choice contain
 This is the end screen for my game. THis is displayed automatically once the user completes the last question of my game. As the image above shows, it displays the name of the user that they entered on the homepage, as well as their final score in a clear, well illustrated way. The structure of this page is both clear and aesthetically plewasing to the eye formatted in a column-like way. 
 
 After their final score is displayed on screen, it provides the user with the option to either restart the game with their name still stored within local storage, or to navigate back to the landing page where they must either re-enter their details again or enter a different name if someone else wants to play the game.
+
+
 ## Technologies Used
 
 ### Languages
@@ -174,6 +173,13 @@ questionCounter++
 
 questionCounterText.innerText = `${questionCounter}/${maxQuestions}`
 
+I also had a few problems regarding generating random questions out of the 20 that I had included within my json file. The reason as to why it was important for me to do this is so that if the user decided they wanted to have another go at the game, they will then be presented with either completely different questions, or the same ones but in a different order so as not to make their second or third try too easy. The way that I managed to make this happen is with the following code:
+
+const questionIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionIndex]
+    question.innerText = currentQuestion.question
+
+This takes a random number from my questions array and displays it as the current question that the user is on.
 
 
 ## Deployment
