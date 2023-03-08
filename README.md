@@ -81,7 +81,14 @@ The font style that I have decided to go with is Arial, Helvetica, sans-serif as
 
 ### Colours
 
-The colour scheme that I have decided to go with for my second javascript project 
+The colour scheme that I have decided to go with for my second javascript project are listed below:
+
+* Background colour: #1b1a1a
+* Main title: #56a5eb
+* Button colour: white
+* Button hover element colour: rgba(220, 96, 19, 0.997)
+
+I have tested and retested which type of colour would best suit the style of quiz app that I am making, and have decided to settle on these combinations. It was important to keep in mind when selecting the colour scheme of my site that there needed to be a level of contrast with the different elements on the page and the overall background colour. If they were all too similar to one another, they would blend in more with the background and drastically reduce readability. I believe the colour scheme I have chosen compliments each other as well as contrast in a clear, distinct way.
 
 
 ### Structure
