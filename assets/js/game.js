@@ -41,6 +41,9 @@ return res.json()
 const correctScore = 10;
 const maxQuestions = 10;
 
+/* First function that begins once the user clicks play button after 
+filling in their details */
+
 startGame = () => {
     questionCounter = 0
     score = 0
@@ -73,7 +76,9 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionIndex]
     question.innerText = currentQuestion.question
-
+    
+    /* Adds a number dataset in order to distinguish the correct option
+    from the others */ 
     choices.forEach(choice => {
         const number = choice.dataset['number']
         choice.innerText = currentQuestion['choice' + number]
@@ -81,9 +86,12 @@ getNewQuestion = () => {
 
     availableQuestions.splice(questionIndex, 1)
 
+    /* Adds the true boolean value if the user selects the correct option */
+
     acceptingAnswers = true
 }
 
+/* Returns answers as "false" if the user selects the wrong option */
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return

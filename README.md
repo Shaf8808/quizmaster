@@ -20,15 +20,15 @@ Welcome to Quizmaster, an online quiz that allows the user to select from severa
     + [Structure](#structure)
 * [**Features**](#features)
     + [Existing Features](#existing-features)
-      - [Headers and logo](#headers-and-logo)
+      - [Headers](#headers)
       - [Section Headers](#section-headers)
       - [Desktop](#desktop)
       - [Small screens](#small-screens)
-* [**Sections**](#sections)
-    + [Home section](#home-section)
-    + [Welcome section](#welcome-section)
-    + [Quiz section](#quiz-section)
-    + [End section](#end-section)
+* [**Pages**](#pages)
+    + [Home page](#home-page)
+    + [Welcome page](#welcome-page)
+    + [Quiz page](#quiz-page)
+    + [End page](#end-page)
 * [**Technologies Used**](#technologies-used)
     + [Languages](#languages)
     + [Tools](#tools)
@@ -96,20 +96,21 @@ The reason why I have decided to go with this structure is because it is both si
 
 ## Existing Features
 
-### Headers and logo
+### Headers
 
 I have ensured that the different headers used throughout my app have a level of consistency in aspects such as font-size, weight and colour. The main title of my app, for example, is the largest font as its a h1 header. Furthermore, all of the colours I have used for each of my different headers had to be selected carefully so that they are easy and clear to read by the user. This means that the colours selected had to contrast with the chosen colour of my background. 
 
 
 
-## Sections
+## Pages
 
-### Home section
+### Home page
 
 <img src="./doc-images/quizmaster-home.jpg">
 
 The image above shows the landing page of my site that will be presented to users once they enter it's url. The structure of the page is both clear and simple, as all it requires from them is to enter their name within the text input field and click the submit button. The main title or the name of my quiz needs to be front and center on this page as well as be suitably styled to catch the users' attention. I believe that my main heading does exactly that.
-### Welcome section
+
+### Welcome page
 
 <img src="./doc-images/quizmaster-welcome.jpg">
 
@@ -117,7 +118,7 @@ This page is the welcome section of my quiz app. It contains a personalised mess
 
 It prepares the user for the quiz they are about to begin by asking if they are ready, along with a button at the bottom of the message that starts the game. The reason why I have decided to include this page is to both store their name for it to be shown along with their final score on the end screen, as well as give my app a more personal touch to the user.
 
-### Quiz section
+### Quiz page
 
 <img src="./doc-images/quizmaster-quiz.jpg">
 
@@ -127,7 +128,7 @@ My quiz page also includes a score counter which also dynamically increases with
 
 I have also decided to include a home button at the bottom of the choice containers which takes the player back to the homepage, so that if the user decides to quit the game, they have that option available to them rather than having to finish the entire quiz first.
 
-### End section
+### End page
 
 <img src="./doc-images/quizmaster-end.jpg">
 
