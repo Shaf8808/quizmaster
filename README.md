@@ -102,7 +102,7 @@ I have ensured that the different headers used throughout my app have a level of
 
 In order to make my game seem more responsive, I had to chnage certain elements within my site in order for it to be clear and presentable to the user depending on the device they are viewing it on. For example, I encountered an issue on the quiz page where as the screen would get smaller, all of the option buttons would become more cramped and the question itself would be partially hidden at the top. I managed to rectify this by adding some additional margin and padding properties using media queries. The results can be seen below:
 
-
+<img src="./doc-images/quizmaster-responsive.jpg">
 
 
 
