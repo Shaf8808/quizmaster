@@ -25,6 +25,8 @@ h1 {
   font-size: 5.4rem;
   color: #56a5eb;
   margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
 }
 
 h1>span {
