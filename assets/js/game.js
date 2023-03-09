@@ -79,7 +79,7 @@ getNewQuestion = () => {
     /* Adds a number dataset in order to distinguish the correct option
     from the others */
     choices.forEach(choice => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -97,7 +97,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
 
         // Adds incorrect and correct colour to specific option chosen by the user
 
