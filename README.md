@@ -195,9 +195,9 @@ const questionIndex = Math.floor(Math.random() * availableQuestions.length)
 
 This takes a random number from my questions array and displays it as the current question that the user is on.
 
-HTML validation [results](<img src="./doc-images/quizmaster-lighthouse.jpg">)
+HTML validation [results](./doc-images/quizmaster-html-validator.jpg)
 
-CSS validation results
+CSS validation [results](./doc-images/quizmaster-css-validator.jpg)
 
 Javascript validation results
 
