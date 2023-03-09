@@ -198,7 +198,7 @@ CSS validation [results](./doc-images/quizmaster-css-validator.jpg)
 Javascript validation results:
 
 * [game.js](./doc-images/quizmaster-jshint-one.jpg)
-* [form.js](./doc-images/quizmaster-html-validator.jpg)
+* [form.js](./doc-images/quizmaster-jshint-two.jpg)
 * [end.js](./doc-images/quizmaster-html-validator.jpg)
 
 ## Deployment
