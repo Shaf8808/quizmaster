@@ -163,7 +163,7 @@ After their final score is displayed on screen, it provides the user with the op
 * Construction and deployment- Gitpod
 * HTML validation- W3C HTML Validation Service
 * CSS validation- W3C CSS Validation Service
-* JS syntax validator- Esprima
+* JS syntax validator- JSHint
 * Spell check- Grammarly
 
 
@@ -194,6 +194,12 @@ const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     question.innerText = currentQuestion.question
 
 This takes a random number from my questions array and displays it as the current question that the user is on.
+
+HTML validation [results](<img src="./doc-images/quizmaster-lighthouse.jpg">)
+
+CSS validation results
+
+Javascript validation results
 
 
 ## Deployment
