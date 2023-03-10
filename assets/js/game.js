@@ -6,6 +6,14 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 const homeButton = document.getElementById('home-btn');
 const startButton = document.getElementById('start-btn');
 
+/* Variables for final score and username accessed through local storage 
+for it to be displayed on end screen upon quiz completion */
+
+const mostRecentScore = localStorage.getItem('mostRecentScore');
+const finalScore = document.getElementById('finalScore');
+const endTitle = document.getElementById('user-person');
+const userName = localStorage.getItem('userName');
+
 
 // Question counter and score variables
 const questionCounterText = document.getElementById('questionCounter');
@@ -127,3 +135,6 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
+
+endTitle.innerText = userName;
+finalScore.innerText = mostRecentScore;
