@@ -1,5 +1,3 @@
-/*jshint esversion: 6 */
-
 /* Variables for final score and username accessed through local storage 
 for it to be displayed on end screen upon quiz completion */
 

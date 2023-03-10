@@ -1,5 +1,3 @@
-/*jshint esversion: 6 */
-
 /* The code in this file was written with some help from Sam 
 Timmins' quiz app */
 

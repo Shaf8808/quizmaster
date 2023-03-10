@@ -1,6 +1,3 @@
-/*jshint esversion: 6 */
-
-
 /* The code in this file was written with the help of
 James Q Quick's video tutorial of making a quiz app */
 
@@ -27,7 +24,7 @@ let availableQuestions = [];
 // Questions variable which obtains questions from a json file using the fetch method
 let questions = [];
 
-fetch("questions.json").then(res => {
+fetch("./assets/data/questions.json").then(res => {
         return res.json();
     })
     .then(loadedQuestions => {
