@@ -1,19 +1,12 @@
 /* The code in this file was written with some help from Sam 
 Timmins' quiz app */
 
-const startButton = document.getElementById('start-btn');
-
-// Welcome section
-
-const welcomeMessageRef = document.getElementById('welcome-message');
-const welcomeSection = document.getElementById('welcome');
-
-
-// User form section
-
-const userSectionRef = document.getElementById('user');
-const userFormRef = document.getElementById('user-form');
-const userNameRef = document.getElementById('user-name');
+const startButton = document.querySelector('#start-btn');
+const welcomeMessageRef = document.querySelector('#welcome-message');
+const welcomeSection = document.querySelector('#welcome');
+const userSectionRef = document.querySelector('#user');
+const userFormRef = document.querySelector('#user-form');
+const userNameRef = document.querySelector('#user-name');
 
 const userFormOpen = () => {
     welcomeMessageRef.innerHTML = '';
@@ -30,5 +23,4 @@ const handleUserFormSubmit = event => {
     startButton.classList.remove('hidden');
 };
 
-// User form submit
 userFormRef.addEventListener('submit', handleUserFormSubmit);

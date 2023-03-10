@@ -1,32 +1,31 @@
 /* The code in this file was written with the help of
 James Q Quick's video tutorial of making a quiz app */
 
-const question = document.getElementById('question');
-const choices = Array.from(document.getElementsByClassName('choice-text'));
-const homeButton = document.getElementById('home-btn');
-const startButton = document.getElementById('start-btn');
+const question = document.querySelector('#question');
+const choices = Array.from(document.querySelectorAll('.choice-text'));
+const homeButton = document.querySelector('#home-btn');
+const startButton = document.querySelector('#start-btn');
 
 /* Variables for final score and username accessed through local storage 
 for it to be displayed on end screen upon quiz completion */
 
 const mostRecentScore = localStorage.getItem('mostRecentScore');
-const finalScore = document.getElementById('finalScore');
-const endTitle = document.getElementById('user-person');
+const finalScore = document.querySelector('#finalScore');
+const endTitle = document.querySelector('#user-person');
 const userName = localStorage.getItem('userName');
 
 
 // Question counter and score variables
-const questionCounterText = document.getElementById('questionCounter');
-const scoreText = document.getElementById('score');
+const questionCounterText = document.querySelector('#questionCounter');
+const scoreText = document.querySelector('#score');
 
 let currentQuestion = {};
 let acceptingAnswers = false;
-
-// Default score and question counter
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
+const correctScore = 10;
+const maxQuestions = 10;
 
 
 // Questions variable which obtains questions from a json file using the fetch method
@@ -40,13 +39,6 @@ fetch("./assets/data/questions.json").then(res => {
         startGame();
     });
 
-// Number of points added each time the user is correct and number of questions for question counter
-
-const correctScore = 10;
-const maxQuestions = 10;
-
-/* First function that begins once the user clicks play button after 
-filling in their details */
 
 startGame = () => {
     questionCounter = 0;
@@ -70,7 +62,6 @@ getNewQuestion = () => {
         return window.location.assign("end.html");
     }
 
-    // Dynamically updates question counter depending on question user is currently on
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${maxQuestions}`;
 
