@@ -5,17 +5,6 @@ const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const homeButton = document.querySelector('#home-btn');
 const startButton = document.querySelector('#start-btn');
-
-/* Variables for final score and username accessed through local storage 
-for it to be displayed on end screen upon quiz completion */
-
-const mostRecentScore = localStorage.getItem('mostRecentScore');
-const finalScore = document.querySelector('#finalScore');
-const endTitle = document.querySelector('#user-person');
-const userName = localStorage.getItem('userName');
-
-
-// Question counter and score variables
 const questionCounterText = document.querySelector('#questionCounter');
 const scoreText = document.querySelector('#score');
 
@@ -24,12 +13,10 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+let questions = [];
 const correctScore = 10;
 const maxQuestions = 10;
 
-
-// Questions variable which obtains questions from a json file using the fetch method
-let questions = [];
 
 fetch("./assets/data/questions.json").then(res => {
         return res.json();
@@ -126,6 +113,3 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
-
-endTitle.innerText = userName;
-finalScore.innerText = mostRecentScore;
