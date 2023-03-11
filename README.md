@@ -182,7 +182,7 @@ There were, however, certain issues that I ran into through the course of develo
 
 As this was the first time I have ever used javascript, it was a big learning experience for me where I had to utilise both the resources offered by Code Institute, as well as other external resources from different websites and video tutorials. The biggest issue that I encountered using javascript is the score counter. When I first started on my quiz app, it did not have a timeout function my final version does now. Instead, I had a button which once clicked upon would direct the user to the next question after they select their answer. The reason why I decided to use a timeout method instead is because I believe it makes it more convenient for the user to automatically be redirected to the next question without any input.
 
-The score counter was a big problem that I encountered while making this site. Although incrementing the score and having it dynamically add a specific amount was not too much of an issue, getting it to ignore further clicks from the user was something that I had to figure out.
+The score counter was a big problem that I encountered while making this site. Although incrementing the score and having it dynamically add a specific amount was not too much of an issue, getting it to ignore further clicks from the user was something that I had to figure out. This was an additional reason why I decided to use a timeout method, as that seemed to solve the issue and did not increment the score if the user selected the correct option after clicking the wrong one.
 
 Updating the question counter was also a bit of an issue as I needed to show both the question that the user was on as well as the maximum number of questions that the quiz contained. I did this by using template literals and incrementing the counter each time the user answered a question and having a set number of maximum questions. The code I used can be seen below:
 
@@ -199,6 +199,8 @@ const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     question.innerText = currentQuestion.question
 
 This takes a random number from my questions array and displays it as the current question that the user is on.
+
+Unfortunately, due to time constraints, I was not able to implement a spinning loader for my site that would display on screen to the user as my questions were being loaded. This is the biggest feature I wish I was able to add to my app to show the user in a clear way that the questions I have included within my code are being loaded once they click the "I'm Ready" button. 
 
 HTML validation [results](./doc-images/quizmaster-html-validator.jpg)
 
