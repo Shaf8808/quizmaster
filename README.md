@@ -159,6 +159,7 @@ After their final score is displayed on the screen, it provides the user with th
 
 ### Tools
 
+* Choosing colour scheme- Coolors
 * Construction and deployment- Gitpod
 * HTML validation- W3C HTML Validation Service
 * CSS validation- W3C CSS Validation Service
