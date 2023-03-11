@@ -17,7 +17,6 @@ let questions = [];
 const correctScore = 10;
 const maxQuestions = 10;
 
-
 fetch("./assets/data/questions.json").then(res => {
         return res.json();
     })
@@ -35,7 +34,6 @@ startGame = () => {
     getNewQuestion();
 };
 
-
 /**
  * Updates question counter, randomly generates a question and it's choices
  */
@@ -44,7 +42,6 @@ getNewQuestion = () => {
     // Once the user finishes the quiz, they are navigated to the "end" page
 
     if (availableQuestions.length === 0 || questionCounter >= maxQuestions) {
-        // Stores final score of user for it to be accessed on end screen
         localStorage.setItem('mostRecentScore', score);
         return window.location.assign("end.html");
     }
@@ -60,15 +57,12 @@ getNewQuestion = () => {
 
     /* Adds a number dataset in order to distinguish the correct option
     from the others */
+
     choices.forEach(choice => {
         const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice' + number];
     });
-
     availableQuestions.splice(questionIndex, 1);
-
-    /* Adds the true boolean value if the user selects the correct option */
-
     acceptingAnswers = true;
 };
 
@@ -76,12 +70,11 @@ getNewQuestion = () => {
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return;
-
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset.number;
 
-        // Adds incorrect and correct colour to specific option chosen by the user
+        // Adds incorrect and correct colour class to specific option chosen by the user
 
         const classToApply =
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
@@ -92,11 +85,11 @@ choices.forEach(choice => {
         }
         selectedChoice.parentElement.classList.add(classToApply);
 
-
         /**
          * Navigates the user to the next question after a 
          * 2 second delay and removes the class of correct and incorrect
          */
+
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
@@ -108,6 +101,7 @@ choices.forEach(choice => {
  * Updates score number depending on the user's choice
  * once it is called
  */
+
 incrementScore = num => {
     score += num;
     scoreText.innerText = score;
