@@ -75,7 +75,7 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset.number;
 
-        // Adds incorrect and correct colour class to specific option chosen by the user
+        // Adds incorrect and correct colour class to the option chosen by the user
 
         const classToApply = 
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
