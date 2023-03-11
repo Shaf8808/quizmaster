@@ -11,7 +11,6 @@
   color: #2f2ff1;
 }
 
-
 /* Heading styling */
 
 h1,
@@ -168,7 +167,6 @@ label {
   justify-content: center;
 }
 
-
 /* Home button */
 
 #home-btn {
@@ -182,7 +180,6 @@ label {
   justify-content: center;
   flex-direction: column;
 }
-
 
 /* The styling for my answer buttons */
 
@@ -248,8 +245,6 @@ label {
   color: #edf1f4;
 }
 
-
-
 /* Media queries */
 
 @media only screen and (max-width: 600px) {
@@ -257,15 +252,19 @@ label {
     display: flex;
     justify-content: center;
   }
+
   h2 {
     font-size: 3.2rem;
   }
+
   h1 {
     margin-bottom: 2rem;
-  } 
+  }
+
   #user-name {
     margin-top: 1rem;
   }
+
   #user-submit {
     margin-top: 1rem;
   }
