@@ -25,7 +25,6 @@ fetch("./assets/data/questions.json").then(res => {
         startGame();
     });
 
-
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -37,6 +36,7 @@ startGame = () => {
 /**
  * Updates question counter, randomly generates a question and it's choices
  */
+
 getNewQuestion = () => {
 
     // Once the user finishes the quiz, they are navigated to the "end" page
@@ -67,6 +67,7 @@ getNewQuestion = () => {
 };
 
 /* Returns answers as "false" if the user selects the wrong option */
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return;
@@ -76,10 +77,8 @@ choices.forEach(choice => {
 
         // Adds incorrect and correct colour class to specific option chosen by the user
 
-        const classToApply =
+        const classToApply = 
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
-
-        // Dynamically adds the correctScore value by calling incrementScore function
         if (classToApply === 'correct') {
             incrementScore(correctScore);
         }
