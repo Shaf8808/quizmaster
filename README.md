@@ -70,6 +70,8 @@ Welcome to Quizmaster, an online quiz that allows the user to select from severa
 * I expect the scoring system to work as intended, adding scores appropriately whenever the correct option is picked
 * I expect screen size not to affect the quality of my experience.
 
+[Back to top](#table-of-contents)
+
 ## Design Choices
 
 ### Fonts
@@ -114,6 +116,8 @@ To make my game seem more responsive, I had to change certain elements within my
 
 I decided that the break-off point would be 600 pixels, as that is the mark where my app would start to lose some of its structural integrity with headers not being displayed clearly and buttons becoming too cramped. I used maximum width so I decreased the sizes of the main text and adjusted some margin properties of the buttons and the HUD.
 
+[Back to top](#table-of-contents)
+
 ## Pages
 
 ### Home page
@@ -148,6 +152,8 @@ This is the end screen for my game. This is displayed automatically once the use
 
 After their final score is displayed on the screen, it provides the user with the option to either restart the game with their name still stored within local storage or to navigate back to the landing page where they must either re-enter their details again or enter a different name if someone else wants to play the game.
 
+[Back to top](#table-of-contents)
+
 
 ## Technologies Used
 
@@ -166,6 +172,7 @@ After their final score is displayed on the screen, it provides the user with th
 * JS syntax validator- JSHint
 * Spell check- Grammarly
 
+[Back to top](#table-of-contents)
 
 ## Testing
 
@@ -205,6 +212,8 @@ Javascript validation results:
 * [form.js](./doc-images/quizmaster-jshint-two.jpg)
 * [end.js](./doc-images/quizmaster-jshint-three.jpg)
 
+[Back to top](#table-of-contents)
+
 ## Deployment
 
 Once the code was written, committed and pushed to GitHub, this project was deployed using GitHub following these steps:
@@ -227,3 +236,5 @@ For coding help:
 * [James Q Quick](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Sam Timmins](https://github.com/sam-timmins/smarticus-quizzes)
+
+[Back to top](#table-of-contents)
