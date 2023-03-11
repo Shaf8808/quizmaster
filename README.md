@@ -218,11 +218,11 @@ Once the code was written, committed and pushed to GitHub, this project was depl
 
 ## Credits 
 For question examples:
-* https://www.quiztriviagames.com/multiple-choice-trivia-questions/
-* https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003
+* [Quiz Trivia](https://www.quiztriviagames.com/multiple-choice-trivia-questions/)
+* [General knowledge questions](https://www.cambridge-news.co.uk/whats-on/10-general-knowledge-quiz-questions-23406003)
 
 For coding help:
-* Simen Daehlin
-* James Q Quick
-* Stack Overflow
-* Sam Timmins
+* [Simen Daehlin](https://github.com/eventyret)
+* [James Q Quick](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Sam Timmins](https://github.com/sam-timmins/smarticus-quizzes)
