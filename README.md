@@ -2,7 +2,7 @@
 
 ## Goals and objectives
 
-Welcome to Quizmaster, an online quiz that allows the user to select from several categories and test their general knowledge of their chosen subject. With each correct answer selected, the user gains additional points in a scoring system included in my quiz so that they can see how knowledgeable they are and compare previous results so that they can improve and gain further insight into their specific category. 
+Welcome to Quizmaster, an online quiz that allows the user to test their general knowledge of a wide variety of topics ranging from sport to movies to common trivia. With each correct answer selected, the user gains additional points in a scoring system included in my quiz so that they can see how knowledgeable they are and compare previous results encouraging them to have multiple attempts. 
 
 
 ## Table of Contents
@@ -42,7 +42,6 @@ Welcome to Quizmaster, an online quiz that allows the user to select from severa
 
 ### User Stories
 * As a user, I want to be able to enter my username to participate in the quiz.
-* As a user, I want the option to pick from different categories of quizzes
 * As a user, I want to see my score progress
 * As a user, I want to be able to exit out 
 * As a user, I want to be able to pick an answer from four different options
@@ -64,7 +63,6 @@ Welcome to Quizmaster, an online quiz that allows the user to select from severa
 ### Expectations
 
 * I expect to know that this is my game based on my username.
-* I expect that all the category choices present the correct type of questions
 * I expect to be able to leave the question page and navigate back to the homepage if I wish
 * I expect feedback on performance.
 * I expect the scoring system to work as intended, adding scores appropriately whenever the correct option is picked
